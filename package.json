@@ -1,0 +1,24 @@
+{
+  "name": "type-challenges",
+  "version": "0.0.1",
+  "description": "Type Challenges Solution by Muhammad Ilham Mubarak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milhamm/type-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milhamm/type-challenges/issues"
+  },
+  "homepage": "https://github.com/milhamm/type-challenges#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4",
+    "@type-challenges/utils": "workspace:*"
+  }
+}
