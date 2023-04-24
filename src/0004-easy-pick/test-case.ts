@@ -1,8 +1,5 @@
 import type { Equal, Expect } from "@type-challenges/utils";
-
-type MyPick<T, K extends keyof T> = {
-  [Key in K]: T[Key];
-};
+import type { MyPick } from "./solution";
 
 type cases = [
   Expect<Equal<Expected1, MyPick<Todo, "title">>>,
